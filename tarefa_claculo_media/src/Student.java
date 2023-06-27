@@ -1,10 +1,10 @@
 public class Student {
-    String name;
-    double grade1;
-    double grade2;
-    double grade3;
-    double grade4;
-    double average;
+    private String name;
+    private double grade1;
+    private double grade2;
+    private double grade3;
+    private double grade4;
+    private double average;
 
 
     public void setGrade1(double grade1) {
