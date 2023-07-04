@@ -1,5 +1,9 @@
 package br.com.elisbjr;
 
+<<<<<<< HEAD
+=======
+import java.util.Objects;
+>>>>>>> origin/master
 
 public class Person {
     private String name;
