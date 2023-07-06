@@ -11,12 +11,12 @@ public class Client {
     private String city;
     private String state;
 
-    public Client(String name, String cpf, String tel, String address, Integer number, String city, String state)  {
+    public Client(String name, String cpf, String tel, String address, String number, String city, String state)  {
         this.name = name;
         this.cpf = Long.valueOf(cpf.trim());
         this.tel = Long.valueOf(tel.trim());
         this.address = address;
-        this.number = number;
+        this.number = Integer.valueOf(number.trim());
         this.city = city;
         this.state = state;
     }
