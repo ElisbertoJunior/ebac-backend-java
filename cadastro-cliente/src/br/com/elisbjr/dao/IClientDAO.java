@@ -3,7 +3,7 @@ package br.com.elisbjr.dao;
 import br.com.elisbjr.domain.Client;
 
 import java.util.Collection;
-import java.util.Collections;
+
 
 public interface IClientDAO {
     public Boolean register(Client client);
