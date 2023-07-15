@@ -1,10 +1,12 @@
+package fruta;
+
 import fruta.Banana;
 import fruta.Fruta;
+import fruta.GenericEntry;
 import fruta.Maca;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package fruta;
+
 public class GenericEntry<T, E> {
     private T data;
 
