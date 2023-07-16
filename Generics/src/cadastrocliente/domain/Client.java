@@ -2,7 +2,7 @@ package cadastrocliente.domain;
 
 import java.util.Objects;
 
-public class Client {
+public class Client implements Persistance{
     private String name;
     private Long cpf;
     private Long tel;
@@ -96,5 +96,10 @@ public class Client {
                 "name='" + name + '\'' +
                 ", cpf=" + cpf +
                 '}';
+    }
+
+    @Override
+    public Long getCode() {
+        return this.cpf;
     }
 }
