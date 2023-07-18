@@ -10,8 +10,13 @@ public class SportsCar extends Car {
     }
 
     @Override
+    public String getCarType() {
+        return "Esportivo";
+    }
+
+    @Override
     public String toString() {
-        return super.toString() + (isConvertible ? "(Coneversivel)" : "");
+        return super.toString() + (isConvertible ? "(Conversivel)" : "");
 
     }
 }

@@ -1,18 +1,18 @@
 package br.com.elisbjr.domain;
 
-public class Car {
-    private String brand;
-    private String moddel;
+public abstract class Car {
+     private String brand;
+    private String model;
 
     public Car(String brand , String model) {
         this.brand = brand;
-        this.moddel = model;
+        this.model = model;
     }
+
+    public abstract String getCarType();
 
     @Override
     public String toString() {
-        return "Carro - " +
-                "Marca: " + brand + ", " +
-                "Modelo: " + moddel + ", ";
+         return "Marca: " + brand + ", Modelo: " + model + ", Tipo: " + getCarType() + " ";
     }
 }
