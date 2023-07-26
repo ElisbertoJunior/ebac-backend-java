@@ -38,7 +38,7 @@ public class App {
             if(isValidGender) {
                 list.add(new Person(name, gender));
             } else {
-                System.out.println("Genero invalido! Favor digite Masculino o feminino.");
+                System.out.println("Genero invalido! Favor digite Masculino ou feminino.");
             }
 
 
