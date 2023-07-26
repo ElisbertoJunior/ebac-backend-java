@@ -3,6 +3,7 @@ package br.com.elisbjr;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
+import java.util.stream.Stream;
 
 public class App {
     public static void main(String[] args) {
@@ -22,9 +23,9 @@ public class App {
 
         System.out.println("Lista de mulheres: ");
 
-        list.stream()
-                .filter(person -> person.getGender().equalsIgnoreCase("Feminino"))
-                .forEach(person -> System.out.println(person.getName()));
+        Stream<Person> womenList = list.stream()
+                .filter(person -> person.getGender().equalsIgnoreCase("Feminino"));
+        womenList.forEach(person -> System.out.println(person.getName()));
 
     }
 

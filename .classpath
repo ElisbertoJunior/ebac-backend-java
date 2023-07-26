@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="agregacoes/src"/>
+	<classpathentry kind="src" path="Anotations/src"/>
+	<classpathentry kind="src" path="cadastro-cliente/src"/>
+	<classpathentry kind="src" path="CadastroClienteSwing/src"/>
+	<classpathentry kind="src" path="CadastroClienteSwingExercicio/src"/>
+	<classpathentry kind="src" path="Colecoes-parte-2/src"/>
+	<classpathentry kind="src" path="exercicio-mod13/src"/>
+	<classpathentry kind="src" path="Exercicio-modulo-4/src"/>
+	<classpathentry kind="src" path="ExMod15Singleton/src"/>
+	<classpathentry kind="src" path="ExpressoesLambda/src"/>
+	<classpathentry kind="src" path="Generics/src"/>
+	<classpathentry kind="src" path="Modulo7/src"/>
+	<classpathentry kind="src" path="ReflectionsMod19/src"/>
+	<classpathentry kind="src" path="StreamsMod22/src"/>
+	<classpathentry kind="src" path="tarefa_claculo_media/src"/>
+	<classpathentry kind="src" path="tarefa_classes/src"/>
+	<classpathentry kind="src" path="tarefa_controle_de_fluxo/src"/>
+	<classpathentry kind="src" path="tarefa_wrapper/src"/>
+	<classpathentry kind="src" path="tarefa-colecoes/src"/>
+	<classpathentry kind="src" path="tarefa-padroes-de-projeto-01/src"/>
+	<classpathentry kind="src" path="TarefaStreams/src"/>
+	<classpathentry kind="src" path="terefa-annotations/src"/>
+	<classpathentry kind="src" path="terefa-generics/src"/>
+	<classpathentry kind="output" path="Anotations/out/production/Anotations"/>
+</classpath>
