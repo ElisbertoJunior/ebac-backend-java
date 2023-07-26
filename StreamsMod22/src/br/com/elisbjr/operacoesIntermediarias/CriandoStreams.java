@@ -1,4 +1,4 @@
-package br.com.elisbjr;
+package br.com.elisbjr.operacoesIntermediarias;
 
 import java.util.List;
 import java.util.Map;

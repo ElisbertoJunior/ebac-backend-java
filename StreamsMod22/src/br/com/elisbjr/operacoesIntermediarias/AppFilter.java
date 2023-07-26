@@ -1,11 +1,13 @@
-package br.com.elisbjr;
+package br.com.elisbjr.operacoesIntermediarias;
+
+import br.com.elisbjr.Pessoa;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
 
-public class App {
+public class AppFilter {
     public static void main(String[] args) {
         List<Pessoa> pessoas = new Pessoa().popularPessoa();
 
