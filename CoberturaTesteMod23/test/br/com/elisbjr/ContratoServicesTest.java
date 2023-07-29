@@ -40,7 +40,7 @@ public class ContratoServicesTest {
         String retorno = service.buscar();
         Assert.assertEquals("Item encontrado com sucesso!", retorno);
     }
-
+    @Test
     public void excluirTest() {
         IContratoDao dao = new ContratoDaoMock();
         IContratoService service = new ContratoService(dao);
@@ -54,6 +54,22 @@ public class ContratoServicesTest {
         IContratoService service = new ContratoService(dao);
         String retorno = service.excluir();
         Assert.assertEquals("Item excluido com sucesso!", retorno);
+    }
+
+    @Test
+    public void atualizarTest() {
+        IContratoDao dao = new ContratoDaoMock();
+        IContratoService service = new ContratoService(dao);
+        String retorno = service.atualizar();
+        Assert.assertEquals("Item atualizado com sucesso!", retorno);
+    }
+
+    @Test(expected = UnsupportedOperationException.class)
+    public void esperadoErroAoAtulizarComBancoDeDadosTest() {
+        IContratoDao dao = new ContratoDao();
+        IContratoService service = new ContratoService(dao);
+        String retorno = service.excluir();
+        Assert.assertEquals("Item atualizado com sucesso!", retorno);
     }
 
 
