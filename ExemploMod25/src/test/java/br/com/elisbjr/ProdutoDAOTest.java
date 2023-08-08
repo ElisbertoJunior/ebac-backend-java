@@ -62,10 +62,10 @@ public class ProdutoDAOTest {
 	
 	@Test
 	public void alterarCliente() throws TipoChaveNaoEncontradaException {
-		produto.setNome("Rodrigo Pires");
+		produto.setNome("Elisberto Junior");
 		produtoDao.alterar(produto);
 		
-		Assert.assertEquals("Rodrigo Pires", produto.getNome());
+		Assert.assertEquals("Elisberto Junior", produto.getNome());
 	}
 	
 	@Test
