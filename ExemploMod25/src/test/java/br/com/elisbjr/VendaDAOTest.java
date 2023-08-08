@@ -264,12 +264,12 @@ public class VendaDAOTest {
 	private Cliente cadastrarCliente() throws TipoChaveNaoEncontradaException {
 		Cliente cliente = new Cliente();
 		cliente.setCpf(12312312312L);
-		cliente.setNome("Rodrigo");
-		cliente.setCidade("São Paulo");
+		cliente.setNome("Elisberto");
+		cliente.setCidade("Goiania");
 		cliente.setEnd("End");
-		cliente.setEstado("SP");
+		cliente.setEstado("GO");
 		cliente.setNumero(10);
-		cliente.setTel(1199999999L);
+		cliente.setTel(6299999999L);
 		clienteDao.cadastrar(cliente);
 		return cliente;
 	}
