@@ -34,12 +34,12 @@ public class ClienteDAOTest {
 	public void init() throws TipoChaveNaoEncontradaException {
 		cliente = new Cliente();
 		cliente.setCpf(12312312312L);
-		cliente.setNome("Rodrigo");
-		cliente.setCidade("São Paulo");
+		cliente.setNome("Elisberto");
+		cliente.setCidade("Goiania");
 		cliente.setEnd("End");
-		cliente.setEstado("SP");
+		cliente.setEstado("GO");
 		cliente.setNumero(10);
-		cliente.setTel(1199999999L);
+		cliente.setTel(6299999999L);
 		clienteDao.cadastrar(cliente);
 	}
 	
@@ -51,7 +51,7 @@ public class ClienteDAOTest {
 	
 	@Test
 	public void salvarCliente() throws TipoChaveNaoEncontradaException {
-		cliente.setCpf(56565656565L);
+		cliente.setCpf(565646566565L);
 		Boolean retorno = clienteDao.cadastrar(cliente);
 		Assert.assertTrue(retorno);
 	}
@@ -64,7 +64,7 @@ public class ClienteDAOTest {
 	
 	@Test
 	public void alterarCliente() throws TipoChaveNaoEncontradaException {
-		cliente.setNome("Rodrigo Pires");
+		cliente.setNome("Elisberto Junior");
 		clienteDao.alterar(cliente);
 		Assert.assertEquals("Rodrigo Pires", cliente.getNome());
 	}
