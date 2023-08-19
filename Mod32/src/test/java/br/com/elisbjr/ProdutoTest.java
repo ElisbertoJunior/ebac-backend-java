@@ -7,7 +7,7 @@ import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
 
-import br.com.elisbjr.dao.CursoDao;
+
 import br.com.elisbjr.dao.IProduto;
 import br.com.elisbjr.dao.ProdutoDao;
 import br.com.elisbjr.domain.Produto;
