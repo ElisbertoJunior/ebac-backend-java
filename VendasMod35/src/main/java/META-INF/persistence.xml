@@ -7,7 +7,7 @@
 		
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		
-		<class>br.com.elisbjr.domain.jpa.Cliente</class>
+		
 		
 		
 		<properties>
