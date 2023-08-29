@@ -1,0 +1,16 @@
+C:\Users\elisb\Desktop\Ebac-Java\JSF-Mod38\vendasOnline\src\main\java\br\com\elisbjr\dao\ClienteDAO.java
+C:\Users\elisb\Desktop\Ebac-Java\JSF-Mod38\vendasOnline\src\main\java\br\com\elisbjr\service\ClienteService.java
+C:\Users\elisb\Desktop\Ebac-Java\JSF-Mod38\vendasOnline\src\main\java\br\com\elisbjr\dao\IClienteDAO.java
+C:\Users\elisb\Desktop\Ebac-Java\JSF-Mod38\vendasOnline\src\main\java\br\com\elisbjr\dao\generic\GenericDAO.java
+C:\Users\elisb\Desktop\Ebac-Java\JSF-Mod38\vendasOnline\src\main\java\br\com\elisbjr\controller\ClienteController.java
+C:\Users\elisb\Desktop\Ebac-Java\JSF-Mod38\vendasOnline\src\main\java\br\com\elisbjr\exceptions\TipoElementoNaoConhecidoException.java
+C:\Users\elisb\Desktop\Ebac-Java\JSF-Mod38\vendasOnline\src\main\java\br\com\elisbjr\service\IClienteService.java
+C:\Users\elisb\Desktop\Ebac-Java\JSF-Mod38\vendasOnline\src\main\java\br\com\elisbjr\domain\Persistente.java
+C:\Users\elisb\Desktop\Ebac-Java\JSF-Mod38\vendasOnline\src\main\java\br\com\elisbjr\exceptions\TableException.java
+C:\Users\elisb\Desktop\Ebac-Java\JSF-Mod38\vendasOnline\src\main\java\br\com\elisbjr\services\generic\GenericService.java
+C:\Users\elisb\Desktop\Ebac-Java\JSF-Mod38\vendasOnline\src\main\java\br\com\elisbjr\exceptions\MaisDeUmRegistroException.java
+C:\Users\elisb\Desktop\Ebac-Java\JSF-Mod38\vendasOnline\src\main\java\br\com\elisbjr\exceptions\TipoChaveNaoEncontradaException.java
+C:\Users\elisb\Desktop\Ebac-Java\JSF-Mod38\vendasOnline\src\main\java\br\com\elisbjr\domain\Cliente.java
+C:\Users\elisb\Desktop\Ebac-Java\JSF-Mod38\vendasOnline\src\main\java\br\com\elisbjr\services\generic\IGenericService.java
+C:\Users\elisb\Desktop\Ebac-Java\JSF-Mod38\vendasOnline\src\main\java\br\com\elisbjr\exceptions\DAOException.java
+C:\Users\elisb\Desktop\Ebac-Java\JSF-Mod38\vendasOnline\src\main\java\br\com\elisbjr\dao\generic\IGenericDAO.java

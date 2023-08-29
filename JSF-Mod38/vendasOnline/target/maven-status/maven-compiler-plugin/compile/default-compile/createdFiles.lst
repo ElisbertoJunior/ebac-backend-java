@@ -1,0 +1,16 @@
+br\com\elisbjr\dao\ClienteDAO.class
+br\com\elisbjr\dao\IClienteDAO.class
+br\com\elisbjr\domain\Persistente.class
+br\com\elisbjr\domain\Cliente.class
+br\com\elisbjr\service\IClienteService.class
+br\com\elisbjr\service\ClienteService.class
+br\com\elisbjr\exceptions\TableException.class
+br\com\elisbjr\dao\generic\GenericDAO.class
+br\com\elisbjr\exceptions\MaisDeUmRegistroException.class
+br\com\elisbjr\dao\generic\IGenericDAO.class
+br\com\elisbjr\exceptions\DAOException.class
+br\com\elisbjr\services\generic\GenericService.class
+br\com\elisbjr\controller\ClienteController.class
+br\com\elisbjr\services\generic\IGenericService.class
+br\com\elisbjr\exceptions\TipoChaveNaoEncontradaException.class
+br\com\elisbjr\exceptions\TipoElementoNaoConhecidoException.class
