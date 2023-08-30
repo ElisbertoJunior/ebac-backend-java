@@ -1,6 +1,8 @@
 package br.com.elisbjr.service;
 
 import br.com.elisbjr.entity.Produto;
+import br.com.elisbjr.exception.ProductNullException;
+import br.com.elisbjr.exception.ProductPriceException;
 import br.com.elisbjr.repository.ProdutoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,6 +16,10 @@ public class ProdutoService {
     private ProdutoRepository repository;
 
     public Produto save(Produto produto) {
+        if(produto.getNome() == null || produto.getPreco() == null)
+            throw new ProductNullException();
+        if (produto.getPreco() < 0)
+            throw new ProductPriceException();
         return repository.save(produto);
     }
 
