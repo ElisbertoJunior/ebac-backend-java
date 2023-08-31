@@ -1,7 +1,7 @@
 package br.com.elisbjr.controllers;
 
-import br.com.elisbjr.entity.Produto;
-import br.com.elisbjr.service.ProdutoService;
+import br.com.elisbjr.entity.Pedido;
+import br.com.elisbjr.service.PedidoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -9,24 +9,24 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/produto")
-public class ProdutoController {
+@RequestMapping(value = "/pedido")
+public class PedidoController {
 
     @Autowired
-    private ProdutoService service;
+    private PedidoService service;
 
     @PostMapping(value = "/save")
-    public ResponseEntity<Produto> salvaProduto(@RequestBody Produto produto) {
-        return ResponseEntity.ok().body(service.save(produto));
+    public ResponseEntity<Pedido> save (@RequestBody Pedido pedido) {
+        return ResponseEntity.ok().body(service.save(pedido));
     }
 
     @GetMapping(value = "/{id}")
-    public ResponseEntity<Produto> buscaProduto(@PathVariable Long id) {
+    public ResponseEntity<Pedido> buscaPedido(@PathVariable Long id) {
         return ResponseEntity.ok().body(service.findById(id));
     }
 
     @GetMapping(value = "/busca-todos")
-    public ResponseEntity<List<Produto>> buscaTodos() {
+    public ResponseEntity<List<Pedido>> buscaTodos() {
         return ResponseEntity.ok().body(service.findAll());
     }
 
