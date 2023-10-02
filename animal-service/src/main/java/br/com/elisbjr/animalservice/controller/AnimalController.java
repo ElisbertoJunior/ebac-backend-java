@@ -25,4 +25,14 @@ public class AnimalController {
     private ResponseEntity<Animal> create(@RequestBody Animal animal) {
         return ResponseEntity.status(HttpStatus.CREATED).body(repository.save(animal));
     }
+
+    @GetMapping("/nota-adopted")
+    private ResponseEntity<List<Animal>> findNotAdopted() {
+        return ResponseEntity.ok().body(repository.findNotAdopted());
+    }
+
+    @GetMapping("/adopted")
+    private ResponseEntity<List<Animal>> findAdopted() {
+        return ResponseEntity.ok().body(repository.findAdopted());
+    }
 }
